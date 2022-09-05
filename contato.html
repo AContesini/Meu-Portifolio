@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/true_icons/astronaut.png" type="image/x-icon">
+    
+    
+    <!--Css BTS-->
+    <link rel="stylesheet" href="assets/Css/bootstrap.min.css">
+
+    <title>Portifólio</title>
+     
+     <!--Css Global-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Css interno-->
+    <style>
+      body{
+        background-image:url('assets/backgrounds/art_nasa_2\ 1980x1340.jpg') ;/* url da"imagem de fundo"*/
+     
+        
+       
+      }
+      main{
+       height: 100vh;
+      }
+      .text-end:hover,h1:hover,h2:hover {
+        color: yellowgreen;
+        transition: 3s;
+       
+  }
+
+    </style>
+
+</head>
+<body >
+    
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="Formação.html" class="nav-link px-2 text-white">Formação</a></li>
+          <li><a href="portifólio.html" class="nav-link px-2 text-white">Saber_sobre mim</a></li>
+          <li><a href="contato.html" class="nav-link px-2 text-white">Contato</a></li>
+         
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-warning">Sign-up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+      
+      <main>
+        <div class="container bg-warning divcontato">
+    
+          <form  class ='contato' action="https://formsubmit.co/4d154c562de30a7274c8d0ab4d8388ed " method="POST">
+             <label for="nome"> Seu nome</label>
+             <input type="text" name ="nome" id="nome" required>
+            <label for="email"> E-mail</label>
+            <input type="email" name="email" id='email'required>
+            <label for="message" >Mensagem</label>
+            <input type="text" name="message" id='message'required>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
+            <button type="submit">Send</button>
+             
+          
+            <button type="reset">limpar</button>
+        
+        </form>
+        </div> 
+
+  
+      </main>
+  
+     
+    
+<footer  class="p-3 text-bg-dark">  
+        <!-- 2.2 contF-->
+   <div class="container">
+   
+         <!-- 2.3 cont-->
+     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+       <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+         <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg><!-- 2.3-->
+       </a>
+   
+       <!--2.4 Ul/li/links-->
+   
+       <ul class="nav col-lg-auto me-lg-auto  mb-2 "> 
+         <!--2.4.1-->
+         <li>
+           <a href="https://www.instagram.com/adriano_contesini/" target="_blank"><button class="btn  me-md-2" type="button"><img src="assets/true_icons/instagram (1).png" alt="instagram" width="24px"></button>
+           </a>
+           
+         </li>
+         <li>
+           <a href="https://www.facebook.com/adriano.contesini" target="_blank">
+             <button class="btn  me-md-2" type="button"><img src="assets/true_icons/facebook.png" alt="Facebook" width="24px">
+             </button>
+           </a>
+         </li>
+         <li>
+         <a href="https://github.com/AContesini" target="_blank">
+           <button class="btn  me-md-2" type="button"><img src="assets/true_icons/github.png" alt="github" width="24px"></button>
+         </a>
+         </li>
+         <li>
+         <a href="https://www.linkedin.com/in/adriano-contesini-a18046223/" target="_blank">
+           <button class="btn  me-md-2" type="button"><img src="assets/true_icons/linkedin.png"   alt="linkedin" width="24px"></button>
+         </a>
+         </li>
+               
+         
+       </ul>
+         <!--2.5-->
+         <div class="text-end">
+           <p> Criado por Adriano Contesini</p>
+         </div>
+     </div>
+   </div>  
+</footer>
+
+
+         <!-- JavaScript Bundle with Popper -->
+      <script src="assets/Js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

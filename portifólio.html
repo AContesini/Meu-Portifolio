@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/true_icons/astronaut.png" type="image/x-icon">
+    
+    <!--Css BTS-->
+    <link rel="stylesheet" href="assets/Css/bootstrap.min.css">
+
+    <title>Portifólio</title>
+     
+     <!--Css Global-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Css interno-->
+    <style>
+        body{
+          background-image:url('assets/backgrounds/Guitar1980x1080.jpg') ;/* url da"imagem de fundo"*/
+          font-family: 'roboto',Arial, Helvetica, sans-serif;
+
+          
+          
+        }
+
+        .text-end ,h1 ,h2  {
+          
+          text-align: center;
+        }
+        .text-end:hover,h1:hover,h2:hover {
+          color: yellowgreen;
+          transition: 3s;
+          text-align: center;
+        }
+    </style>
+
+</head>
+<body >
+    
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <!--3.0 links-->
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" >
+          <li><a href="index.html" class="nav-link px-2 text-secondary btn btn-warning me-2">Home</a></li> <!--Home btn-->
+          <li><a href="Formação.html" class="nav-link px-2 text-white" id="nav">Formação</a></li>
+          <li><a href="portifólio.html" class="nav-link px-2 text-white" id="nav">Sobre mim</a></li>
+          <li><a href="contato.html" class="nav-link px-2 text-white"id="nav">Contato</a></li>
+         
+        </ul>
+     </div>
+    </div>
+  </header>
+  
+
+      
+      
+          
+ <!-- 6.0 Texto topo-->
+  <div class="container-fluid ">
+        <div class="row pt-3 ">
+          <!--6.0 Coluna A-->
+          <div class="col-md-5 pt-3  " style="min-height: 100px;">
+          <div class="card  rounded-2"  style="background-color: #6f3a0152;overflow: auto;" >
+          <div class="card-header bg-dark text-light"  style="background-color: #f75f002f;"><h1> Sobre min</h1></div>
+          <div class="card-body "  style="background-color: #f742002f;">
+          <h2 class="card-title text-light">Olá eu sou o Adriano </h2>
+          <p class="card-text  pt-3 rounded-2 p-3 " style="background-color: #ffffffc9; " >Muito prazer, meu nome completo é Adriano Enio Contesini , Nasci em 1990 <br> 
+
+          Carinha de 20 anos sempre , atualmente moro em Curitiba, Paraná ,porem sou do Litoral <br> 
+
+          da Cidade de Pontal do Paraná , Shangri-lá , como vocês podem ter visto na página "formação" estudo 
+
+          Analise e desenvolvimento de Sistemas na Uninter e estou ansioso pelos próximos desafios que viram. <br> 
+
+
+          </p>
+          </div>
+          </div>
+          </div>
+          <!--6.0 Coluna B-->
+          <div class="col-md-2 pt-3 p-5">
+          <!--Vazio-->
+          </div>
+           <!--6.0 Coluna C-->
+          <div class="col-md-5 pt-3 p-5 ">
+
+
+          <!-- carrossel-->
+
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+          <img src="assets/img/UFPR.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption  d-md-block pt-5 pb-0 " data-bs-toggle="modal" data-bs-target="#staticBackdrop1"  style="background-color: #a8f404b4;" >
+          <h5  > Já Cursei Ciências</h5>
+          <p> Clique aqui pra Saber mais</p>
+          </div>
+
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+          <img src="assets/img/apple2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption  d-md-block pt-5 pb-0 " data-bs-toggle="modal" data-bs-target="#staticBackdrop2"  style="background-color: #4400ffb4; " >
+          <h5  > Entre 100 melhores na Apple</h5>
+          <p> Clique aqui pra Saber mais</p>
+          </div>
+          </div>
+          <div class="carousel-item">
+          <img src="assets/img/goku e ryu.jpg" class="d-block w-100" alt="...">
+
+          <div class="carousel-caption  d-md-block pt-5 pb-0 " data-bs-toggle="modal" data-bs-target="#staticBackdrop3"  style="background-color: #00bfffb4; " >
+          <h5  >Eu Nerd??</h5>
+          <p> Clique aqui pra Saber mais</p>
+          </div>
+          </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+          </div>
+         </div>
+        </div>
+  </div>
+<!------------------------------------------------------------>
+
+   <!-- 7.0 Meio-->
+
+
+   <div class=" text-center pt-2   " > <!-- 7.0 pict-->
+    <picture>
+      <source media="(max-width:410px )" srcset="assets/img/chocolate180px.jpeg" style="border-radius: 100%;" >
+      <source media="(max-width:610px )" srcset="assets/img/chocolate400px.jpeg" style="border-radius: 100%;" >
+      <img src="assets/img/chocolate776px.jpeg" alt="principal" style="border-radius: 100%;  max-width: 676px;">
+    </picture>
+    </div>
+
+ <!---8.0 final -->
+<div class=" mt-2">
+  
+    <div class="row ">
+      <div class="col-md-4 pt-2 h-100 " style="min-width: 90px ; font-size:clamp(11px,3vw ,11.5px) ;" >  <!-- 8.0 Coluna  A-->
+        <div class="card  rounded-3"  style="background-color: #6f3a0152;" >
+          <div class="card-header bg-dark text-light"  style="background-color: #f75f002f;"><h1> Futuro</h1></div>
+          <div class="card-body "  style="background-color: #f742002f;">
+          <h2 class="card-title text-light">Objetivos </h2>
+          <p class="card-text  pt-3 rounded-2 p-3 " style="background-color: #ffffffc9; " >
+
+
+              Meu maior desejo no momento é  me tornar um ótimo profissiconal de T.I, e construir uma ótima carreira , pois não podemos parar de estudar , 
+              "apesar de ser uma frase pronta",  confio 100% nessa 
+              ideia , acho independente do que você vai fazer,faça
+              com gosto e quando concluir , va atrás de novos desafios,não pare. <a data-bs-toggle="modal" data-bs-target="#staticBackdrop4" type="button" class="btn btn-danger btn-sm">Olha aqui quem me inspira</a> 
+            
+          
+
+          </p>
+          </div>
+          </div>
+      </div>
+      
+           <!-- 8.0 Coluna B-->
+            <div class="col-md-4 p-5 pt-2 h-100" style="min-width: 90px ; font-size:clamp(11px,3vw ,11.5px) ;">
+              <div class="card border-secundary bg-dark text-light mt-0  rounded-3" >
+                <div class="card-header"><h2>Meus Hobies</div></h2>
+                <div class="card-body">
+                  <h5 class="card-title">Algumas coisas que gosto de Fazer</h5>
+                  <p class="card-text">
+      
+                    <div class="list-group " style="text-align:justify ;">
+                      <a href="#" class="list-group-item list-group-item-action"> <img src="assets/true_icons/musica.png" alt="Comer" style="width: 42px ;padding-right: 10px ;"> Ouvir uma boa Músicas</a>
+                    
+                      <a href="#" class="list-group-item list-group-item-action list-group-item-primary">  <img src="assets/true_icons/prato.png" alt="Comer" style="width: 42px ;padding-right: 10px ;">Comer muito</a>
+                      <a href="#" class="list-group-item list-group-item-action list-group-item-secondary" > <img src="assets/true_icons/ilha.png" alt="Comer" style="width: 42px ;padding-right: 10px ;"> Viajar</a>
+                      <a href="#" class="list-group-item list-group-item-action list-group-item-success"><img src="assets/true_icons/game-controller.png" alt="Comer" style="width: 42px ;padding-right: 10px ;">  Jogar</a>
+                      <a href="#" class="list-group-item list-group-item-action list-group-item-danger"><img src="assets/true_icons/dumbbell.png" alt="Comer" style="width: 42px ;padding-right: 10px ;"> Treinar</a>
+                      <a href="#" class="list-group-item list-group-item-action list-group-item-warning"> <img src="assets/true_icons/family.png" alt="Comer" style="width: 42px ;padding-right: 10px ;">Curtir a Fámilia</a>
+                      <a href="#" class="list-group-item list-group-item-action list-group-item-info">  <img src="assets/true_icons/astronaut.png" alt="Comer" style="width: 42px ;padding-right: 10px ;">
+                        Astronomía</a>
+                      <a href="#" class="list-group-item list-group-item-action list-group-item-light"> <img src="assets/true_icons/paws.png" alt="Comer" style="width: 42px ;padding-right: 10px ;"> Curtir meus Dogs</a>
+                     
+                    </div>
+                  </p>
+                </div>
+              </div>
+          </div>
+          <!-- 8.0 col C -->
+          <div class="col-md-4 p-5  pt-2 h-100 " style="min-width: 120px ; font-size:clamp(16px,3vw ,18px) ;">
+            <div class="bg-dark text-light rounded-3 h1"><h1> Sobre isso</h1></div> 
+    
+            <div  class="pt-0  p-2 rounded-3" style="align-content: center; background-color:#22232452; background-image: url(assets/backgrounds/pexels-roman-odintsov-12719131.jpg);background-repeat:      no-repeat;background-position: center;background-size:contain;"  >
+                  <p class="card-text p-3 text-dark " style="background-color: #ffffffbe; font-weight: bolder;">
+          
+                    Bem  um pouco das coisas que gosto de fazer é  curtir  um bom Rock , agora que estou escrevendo esse artigo 
+      
+                    estou escutando um Iron Maiden Fear of the dark " quebrando a quarta parede " ,intendores intenderam a referencia hehehe. 
+                    
+                    curto jogar também, mas ultimamente sem tempo, e pro treino mesma desculpa . <br>
+                    
+                    Curto estar com minha família  mais eles moram  no litoral sempre que posso vou vizitar meus pais ,
+                    tenho 3 Dogs que estão com eles  adoro esses carinhas  ,e se você curte Astronomia ou algo que seja relacionado 
+                    
+                    ao espaço e um dos meus. 
+                  </p>
+          
+          
+                </div>
+
+          </div>
+
+    </div>
+  
+</div>
+</div>
+
+
+
+  
+    
+  
+     
+      
+
+    <footer  class="p-3 text-bg-dark">  
+            <!-- 2.2 contF-->
+      <div class="container">
+      
+            <!-- 2.3 cont-->
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg><!-- 2.3-->
+          </a>
+      
+          <!--2.4 Ul/li/links-->
+      
+          <ul class="nav col-lg-auto me-lg-auto  mb-2 "> 
+            <!--2.4.1-->
+            <li>
+              <a href="https://www.instagram.com/adriano_contesini/" target="_blank"><button class="btn  me-md-2" type="button"><img src="assets/true_icons/instagram (1).png" alt="instagram" width="24px"></button>
+              </a>
+              
+            </li>
+            <li>
+              <a href="https://www.facebook.com/adriano.contesini" target="_blank">
+                <button class="btn  me-md-2" type="button"><img src="assets/true_icons/facebook.png" alt="Facebook" width="24px">
+                </button>
+              </a>
+            </li>
+            <li>
+            <a href="https://github.com/AContesini" target="_blank">
+              <button class="btn  me-md-2" type="button"><img src="assets/true_icons/github.png" alt="github" width="24px"></button>
+            </a>
+            </li>
+            <li>
+            <a href="https://www.linkedin.com/in/adriano-contesini-a18046223/" target="_blank">
+              <button class="btn  me-md-2" type="button"><img src="assets/true_icons/linkedin.png"   alt="linkedin" width="24px"></button>
+            </a>
+            </li>
+                  
+            
+          </ul>
+            <!--2.5-->
+            <div class="text-end">
+              <p> Criado por Adriano Contesini</p>
+            </div>
+        </div>
+      </div>  
+    </footer>
+
+<!--Modal-->
+     <!--Modal 1-->
+     <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"   aria-hidden="true"> <!--Mo A-->
+      <div class="modal-dialog  modal-dialog-scrollable"> <!--Mo B-->
+        <div class="modal-content"> <!--Mo C-->
+          <div class="modal-header"> <!--Mo D-->
+            <h5 class="modal-title" id="staticBackdropLabel1"> Cursei Ciências</h5><!--Mo D Nav-->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> <!--Mo D Nav-->
+          </div>
+          <p class="p-5"> <!--Mo Conteudo -->
+            Entre 2011 e 2012 cursei Licenciatura em ciências na UFPR do litoral, sempre gostei muito de assuntos que envolvem física, química e Biologia, de Fazer experimentos, porem depois de tempo não sabia se era que de fato eu queria, um dia estava correndo para não perder o ônibus para voltar para casa, pois estudava a quase 50km , estava uma tempestade, fora da universidade havia um gramado que estava encharcado, e então escorreguei e quebrei me tornozelo, resultado fiquei 4 meses me recuperando depois disso pensei melhor e tranquei o curso, e vim para Curitiba onde estou desde 2012 até agora.
+          </p>
+          
+        </div>
+      </div>
+    </div>
+
+     <!--Modal 2-->
+     <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"  aria-hidden="true">
+      <div class="modal-dialog  modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">WWES(2021) Apple</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <p class="p-5">
+           Em 2021 participei de um evento Oficial da Apple , onde era apresentada as novas tecnologias da empresa , e todos os dias haviam Quizzes , onde eram ranqueado por Regiões no caso o Brasil participava dentro do ranking da América Latina e depois de um Ano fiquei sabendo que fui premiado
+
+           <a href="https://www.linkedin.com/posts/adriano-contesini-a18046223_obrigado-a-apple-pelo-reconhecimento-no-activity-6945499000863100929-jEtL?utm_source=share&utm_medium=member_desktop">Da uma olhadinha nos Presentes</a>
+          </p>
+         
+        </div>
+      </div>
+    </div>
+
+    <!--Modal 3-->
+    <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"  aria-hidden="true">
+      <div class="modal-dialog  modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Eu Nerd??</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+            <p class="p-5">
+              Para mim quando não tenho nada para fazer nada melhor do ver um anime ou uma
+              Animação, ler um manga ou uma HQ, jogar algum jogo, não tenho frescura vejo de tudo um
+              Pouco, jogo de tudo um pouco, quando não faço isso sempre está vendo sobre novas tecnologias
+              Ou vendo sobre vida animal, sobre o espaço, curto muito tudo isso
+            </p>
+          
+        </div>
+      </div>
+    </div>
+
+    <!--Modal 4-->
+
+
+    <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"  aria-hidden="true">
+      <div class="modal-dialog  modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header text-bg-dark">
+            <h5 class="modal-title" id="staticBackdropLabel">Minhas inspirações </h5>
+            <button type="button" class="btn-close bg-warning" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+            <img src="assets/img/pai e mãe.jpg" alt="Pai e Mãe">
+          
+        </div>
+      </div>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="assets/Js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no">
+    <!--Css BTS serve para utilizar framework bootstrap dentro do código , está baixada endereçada na página para CSS-->
+    <link rel="stylesheet" href="assets/Css/bootstrap.min.css">
+    <title>Sobre Adriano</title>
+    <!--Css Global  utilizo para  estilos que afetaram todas as páginas-->
+     <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="assets/true_icons/astronaut.png" type="image/x-icon">
+     
+     
+      <!--Css interno para estilos  ,especificos de uma para estilos de uma única página na qual ele esta
+      uso css inline tbm  mas isso esta nas tags , serve para tags especificas ná página -->
+     <style>
+          body{
+            background-image:url('assets/backgrounds/art_nasa_1980x1080.jpg') ;/* url da"imagem de fundo"*/ 
+            min-width:fit-content ;/* permite que se defina uma largura máxima permitida para o tamanho de um elemento (botão RGB 1.0 principalmente)*/
+            
+          
+          }
+          h1{
+            color: #ffff;
+            font-family: 'android',Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 4em;
+            margin: 50px 0px 10px 0px;
+
+
+            
+          }
+          .text-end:hover, h1:hover{
+            color: yellowgreen;
+            transition: 3s;
+          }
+     </style>
+
+    </head>
+    <!--para body ultilizei imagens que peguei no site da James Weeb ,Nasa, podendo uso academico (https://webbtelescope.org/copyright)-->
+<body >
+
+
+ <!--Título principal quando passa mouse em cima há um efeito de hover que muda a sua cor-->
+ <h1>Home</h1> 
+
+      
+      <!-- 1.0 Circulo RGB -->
+      <!-- estrutura html do  circulo RGB-->
+      <div class="container-fluid  p-3 "  >            <!--1.0 container--->
+        <div class="body-div1 "  > <!--1.1 body-div e 1.2--->
+              
+              <div class=" div2 d-flex"  > <!--1.2,1.3,1.4 div2--->
+              <div class="texto"><!--1.5 texto--->
+                <a href="Formação.html"> <h1 style="font-size: 0.9em ;">Clique Aqui Pra começar</h1></a>  <!--E aqui aproveitei a tag a para criar um link 
+                que redireciona pagina formação só clicar  em  Clique Aqui Pra começar  css-inline  prefiro usar 'em' pra font-size-->
+              </div>
+      
+              </div>
+            </div>
+      </div>
+  
+  
+    
+  
+
+  <!--2.0 Footer-->
+  <!--2.1 o footer-->
+  <footer  class="p-3 text-bg-dark">  
+      <!-- 2.2 contF-->
+  <div class="container">
+
+        <!-- 2.3 cont-->
+    <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg><!-- 2.3-->
+      </a>
+
+      <!--2.4 Ul/li/links-->
+
+      <ul class="nav col-lg-auto me-lg-auto  mb-2 "> 
+        <!--2.4.1-->
+        <li>
+          <a href="https://www.instagram.com/adriano_contesini/" target="_blank"><button class="btn  me-md-2" type="button">
+            <img src="assets/true_icons/instagram (1).png" alt="instagram" width="24px"></button>
+          </a>
+          
+        </li>
+        <li>
+          <a href="https://www.facebook.com/adriano.contesini" target="_blank">
+            <button class="btn  me-md-2" type="button"><img src="assets/true_icons/facebook.png" alt="Facebook" width="24px">
+            </button>
+          </a>
+        </li>
+        <li>
+        <a href="https://github.com/AContesini" target="_blank">
+          <button class="btn  me-md-2" type="button"><img src="assets/true_icons/github.png" alt="github" width="24px"></button>
+        </a>
+        </li>
+        <li>
+        <a href="https://www.linkedin.com/in/adriano-contesini-a18046223/" target="_blank">
+          <button class="btn  me-md-2" type="button"><img src="assets/true_icons/linkedin.png"   alt="linkedin" width="24px"></button>
+        </a>
+        </li>
+              
+        
+      </ul>
+        <!--2.5-->
+        <div class="text-end">
+          <p> Criado por Adriano Contesini</p>
+        </div>
+    </div>
+  </div>  
+  </footer>
+        
+        
+
+
+  
+    
+
+
+  <!-- JavaScript Bundle with Popper  serve para utilizar framework bootstrap dentro do código , está baixada endereçada na página no caso para JS -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
